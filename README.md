@@ -23,13 +23,20 @@ This program shows equal files from two different directories that you specified
 - Small text file as "text.txt". This file has one duplicate "same text copy.txt" and another with Macintosh EOS type - "text with CR"
 - Large text file as "text large.txt". This file has duplicate with Macintosh EOS type - "text large with CR.txt"
 
+### Output with example folders must be:
 <p>
-Output with example folders must be:
 "./1/binary.exe" equal "./2/same binary.exe"
+</p><p>
 "./1/compressed.rar" equal "./2/compressed.rar"
+</p><p>
 "./1/image.jpg" equal "./2/same image.jpg"
+</p><p>
 "./1/text large.txt" equal "./2/same text large.txt"
+</p><p>
 "./1/text.txt" equal "./2/same text copy.txt"
+</p><p>
 "./1/text.txt" equal "./2/same text.txt"
+</p><p>
 "./1/video.mp4" equal "./2/same video.mp4"
 </p>
+
