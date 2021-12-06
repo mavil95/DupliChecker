@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>180</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DupliChecker</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="FirstFolderLabel">
+      <property name="text">
+       <string>First folder path:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="FirstFolderLine">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string>D:\Temp\1</string>
+      </property>
+      <property name="maxLength">
+       <number>256</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="econdFolderLabel">
+      <property name="text">
+       <string>Second folder path:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="SecondFolderLine">
+      <property name="text">
+       <string>D:\Temp\2</string>
+      </property>
+      <property name="maxLength">
+       <number>256</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ProcessButton">
+      <property name="text">
+       <string>Process</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
